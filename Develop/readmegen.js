@@ -36,7 +36,7 @@ inquirer.prompt ([
     {
         type: "checkbox",
         name: "license",
-        message: "Select a licens",
+        message: "Select a license",
         choices: [
             "Apache",
             "MIT",
