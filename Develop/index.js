@@ -89,7 +89,7 @@ function generateMarkdown(response) {
 
         ${response.description}
     ## Installation:
-        ${response.installation}
+        ${response.instructions}
     ## Usage:
         ${response.usage}
     ## Contribution:
