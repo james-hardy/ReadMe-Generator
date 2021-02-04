@@ -59,7 +59,7 @@ inquirer.prompt ([
     console.log(data);
     let title = data.title;
     let description = data.description;
-    let instructions = data.instructions;
+    let installation = data.instructions;
     let usage = data.usage;
     let contribution = data.contribution;
     let test = data.test;
@@ -72,7 +72,7 @@ inquirer.prompt ([
 # Table of Contents
 
 -[Description](#description)
--[Installation](#instructions)
+-[Installation](#installation)
 -[Usage](#usage)
 -[Contribution](#contribution)
 -[Test](#test)
