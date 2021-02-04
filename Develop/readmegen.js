@@ -84,7 +84,7 @@ inquirer.prompt ([
 
 * ${description}
 
-# Instalation:
+# Installation:
 
 * ${instructions}
 
@@ -106,7 +106,7 @@ Click the link below for licensing information:
 
 # Questions:
 Click on the link below to go to my GitHub page, for additional questions:
--[GitHub Portfolio] (https:github.com/${username})
+-[GitHub Portfolio](https:github.com/${username})
 
 Email me at ${useremail} with further questions
 

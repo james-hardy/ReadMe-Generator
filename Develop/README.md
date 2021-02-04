@@ -1,5 +1,5 @@
 
-# read me gen
+# README GENERATOR
 
 # Table of Contents
 
@@ -12,21 +12,21 @@
 -[Questions](#questions)
 
 # Description:
-![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-* read me gen
+* Dynamically create a read me file
 
-# Instalation:
+# Installation:
 
-* install 
+* Install node, fs, inquirer
 
 # Usage:
 
-* for read me 
+* Use to create a readme file by answering a series of questions
 
 # Contribution:
 
-* a bunch
+* Michigan State starter code, Google, W3schools, npmjs
 
 # Test:
 
@@ -34,11 +34,11 @@
 
 # License:
 Click the link below for licensing information:
- -[License](https://opensource.org/licenses/Apache)
+ -[License](https://opensource.org/licenses/MIT)
 
 # Questions:
 Click on the link below to go to my GitHub page, for additional questions:
--[GitHub Portfolio] (https://github.com/hectordiazjr)
+-[GitHub Portfolio](https:github.com/hectordiazjr)
 
 Email me at hectordiaz1103@gmail.com with further questions
 
