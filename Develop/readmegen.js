@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
 inquirer.prompt ([
     {
         type: "input",
@@ -34,7 +35,7 @@ inquirer.prompt ([
         message: "What are the test instructions?"
     },
     {
-        type: "checkbox",
+        type: "list",
         name: "license",
         message: "Select a license",
         choices: [
@@ -66,50 +67,50 @@ inquirer.prompt ([
     let username = data.username;
     let useremail = data.useremail
     let readme = `
-    # ${data.title}
+# ${data.title}
 
-    # Table of Contents
+# Table of Contents
 
-    -[Description](#description)
-    -[Installation](#instructions)
-    -[Usage](#usage)
-    -[Contribution](#contribution)
-    -[Test](#test)
-    -[License](#license)
-    -[Questions](#questions)
+-[Description](#description)
+-[Installation](#instructions)
+-[Usage](#usage)
+-[Contribution](#contribution)
+-[Test](#test)
+-[License](#license)
+-[Questions](#questions)
 
-    # Description:
-    ![License] (https;img.shields.io/badge/License-${data.licence}-blue.sv "License Badge)
+# Description:
+![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
-    * ${description}
+* ${description}
 
-    # Instalation:
+# Instalation:
 
-    * ${instructions}
+* ${instructions}
 
-    # Usage:
+# Usage:
 
-    * ${usage}
+* ${usage}
 
-    # Contribution:
+# Contribution:
 
-    * ${contribution}
+* ${contribution}
 
-    # Test:
+# Test:
 
-    * ${test}
+* ${test}
 
-    # License:
-    Click the link below for licensing information:
-    -[License] (https://opensource.org/licenses/${license})
+# License:
+Click the link below for licensing information:
+ -[License](https://opensource.org/licenses/${license})
 
-    # Questions:
-    Click on the link belwo to go to my GitHub page, for additional questions:
-    -[GitHub Portfolio] (https://github://github.com/${username})
+# Questions:
+Click on the link below to go to my GitHub page, for additional questions:
+-[GitHub Portfolio] (https:github.com/${username})
 
-    Email me at ${useremail} with further questions
+Email me at ${useremail} with further questions
 
-    `;
+`;
     fs.writeFile("README.md", readme, (err)=>
     err?console.log(err): console.log("Success"));
 })
