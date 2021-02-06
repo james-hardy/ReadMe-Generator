@@ -59,7 +59,7 @@ inquirer.prompt ([
     console.log(data);
     let title = data.title;
     let description = data.description;
-    let installation = data.instructions;
+    let instructions = data.instructions;
     let usage = data.usage;
     let contribution = data.contribution;
     let test = data.test;
