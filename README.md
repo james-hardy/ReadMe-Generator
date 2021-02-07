@@ -3,7 +3,6 @@
 
 # Table of Contents
 
--[Demonstration Video](#Video)
 -[Description](#description)
 -[Installation](#installation)
 -[Usage](#usage)
@@ -12,30 +11,28 @@
 -[License](#license)
 -[Questions](#questions)
 
-# Link to the demonstration video below
--[Video](https://drive.google.com/file/d/1OwVdUmsgHP1sjVdkr0rwu-7OdLixyYPC/view)
-
 # Description:
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-* Dynamically create a read me file
-
+* Dynamically create a README file
+* Click on the link below to view a video demonstration
+-[Video Demonstration](https://drive.google.com/drive/folders/1P8ao8Li-DIhJE9TL0AjaDr1lyt1zaJaO)
 
 # Installation:
 
-* Install node, fs, inquirer
+* Installation of node, fs, inquirer are required
 
 # Usage:
 
-* Use to create a readme file by answering a series of questions
+* Use to create a README file by answering a series of questions
 
 # Contribution:
 
-* Michigan State starter code, Google, W3schools, npmjs
+* Commit your update suggestions to GitHub for review and to be merged
 
 # Test:
 
-* none
+* None
 
 # License:
 Click the link below for licensing information:
@@ -46,6 +43,4 @@ Click on the link below to go to my GitHub page, for additional questions:
 -[GitHub Portfolio](https:github.com/hectordiazjr)
 
 Email me at hectordiaz1103@gmail.com with further questions
-
-
 

@@ -1,5 +1,5 @@
 
-# README generator
+# READ ME GENERATOR
 
 # Table of Contents
 
@@ -14,19 +14,19 @@
 # Description:
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-* Dynamically create a readme file
+* Dynamically create a README file
 
 # Installation:
 
-* Install node, fs, inquirer
+* Installaion of node, fs, inquirer, package.json
 
 # Usage:
 
-* Use to create readme file by answering a series of questions
+* Use to create a README file by answering a series of questions
 
 # Contribution:
 
-* Michigan starter code, google, w3schools, youtube
+* Commit any changes or updates suggested to GitHub for review
 
 # Test:
 
